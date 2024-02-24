@@ -51,7 +51,7 @@ Me gustan los videojuegos en particular sagas/series como DKC o AoE,
 disfuto de la arqueología mexicana y el visitar sitios de ese tipo en el país.
 ```
 
-### Ejercicios
+# Ejercicios
 
 En esta sección encuentras los atajos de los READMEs de los ejercicios, cada ejercicio tendrá un README con las instrucciones esperadas 😉
 | Módulo  | Link    |
