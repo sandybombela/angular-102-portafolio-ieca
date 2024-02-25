@@ -6,7 +6,7 @@ Si ya tienes tu [fork](#haz-un-fork-del-portafolio-de-evidencias) listo ✅, te 
 
 Antes de comenzar, primero completa estas tareas:
 
-### Haz un `fork` del [portafolio de evidencias](https://github.com/tlamabyte-code/angular-portafolio-ieca)
+### Haz un `fork` del [portafolio de evidencias](https://github.com/tlamabyte-code/angular-102-portafolio-ieca)
 
 > **Fork**. Un **fork** es una copia independiente de un repositorio, en este curso <ins>lo vamos a utilizar para que tengas tu portafolio de evidencias en tu cuenta personal de github y puedas trabajar individualmente los ejercicios</ins>.
 
