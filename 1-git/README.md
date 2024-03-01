@@ -1,4 +1,4 @@
-# Sube la lírica 🎼📃 (Ejercicio Opcional solo para ejemplificar)
+# Sube la lírica 🎼📃 (Ejercicio solo para ejemplificar)
 
 ### Instrucciones 
 
