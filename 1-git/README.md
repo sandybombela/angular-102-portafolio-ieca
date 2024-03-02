@@ -8,5 +8,5 @@
 ### Ejercicio en Clase
 
 ```
-Este bloque esta hecho por sim-1
+Este bloque esta hecho por sim-1 v2.0
 ```
