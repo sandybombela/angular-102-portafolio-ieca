@@ -11,5 +11,5 @@ Este bloque puede ser removido para ejemplificar la herramienta git
 ```
 
 ```
-bloque de sim-1
+bloque de sim-2
 ```
