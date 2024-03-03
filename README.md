@@ -56,8 +56,11 @@ disfuto de la arqueología mexicana y el visitar sitios de ese tipo en el país.
 En esta sección encuentras los atajos de los READMEs de los ejercicios, cada ejercicio tendrá un README con las instrucciones esperadas 😉
 | Módulo  | Link    |
 | ------- | ------- |
-| Git | [README](/1-git/README.md) |
+| Git (Carpeta para Ejemplificar)* | [README](/1-git/README.md) |
 | Fundamentos Web | [README](/2-fundamentos-web/README.md) |
+| Javascript | [README](/3-javascript/README.md) |
+
+La carpeta `📁 1-git` es opcional, no es necesario hacer el ejercicio solo funciona para poder ejemplificar más sobre git
 
 ## Notas Importantes ‼️
 <h4>Durante el curso cada semana actualiza tu fork con el código <code>master</code> del repositorio oficial</h4>
