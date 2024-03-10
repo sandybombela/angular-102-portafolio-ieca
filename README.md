@@ -59,6 +59,7 @@ En esta sección encuentras los atajos de los READMEs de los ejercicios, cada ej
 | Git (Carpeta para Ejemplificar)* | [README](/1-git/README.md) |
 | Fundamentos Web | [README](/2-fundamentos-web/README.md) |
 | Javascript | [README](/3-javascript/README.md) |
+| Angular | [README](/4-angular/README.md) |
 
 La carpeta `📁 1-git` es opcional, no es necesario hacer el ejercicio solo funciona para poder ejemplificar más sobre git
 
