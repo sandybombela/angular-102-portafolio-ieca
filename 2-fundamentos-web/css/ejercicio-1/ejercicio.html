@@ -5,23 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio de CSS</title>
     <style>
-        /* Completa el ejercicio siguiendo las instrucciones en los comentarios */
-
         /* Estilo para el cuerpo de la página */
         body {
-            /* Configura el fondo y el color del texto */
+            /* 1. Configura el fondo de color */
+            background-color: aqua;
+            /* 2. Centraliza vertical y horizontalmente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
+        /* Estilo para el encabezado */
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para la imagen */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
-    <!-- Centraliza todo el contenido al centro de la pantalla -->
+    <!-- Centraliza tu cosa favorita -->
     <main>
         <h1>
-            <!-- Completa el título con: "Mi cosa favorita es:" -->
+            Mi cosa favorita es: Gatos
         </h1>
         
-        <!-- Agrega aquí la etiqueta para una imagen y vincula con la etiqueta <img /> con la imagen correspondiente  -->
+        <!-- Agrega la etiqueta para una imagen -->
+        <img src="gato.jpg" alt="Gato">
     </main>
 
 </body>
