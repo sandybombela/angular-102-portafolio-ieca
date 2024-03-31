@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 import { Pokemon } from './pokemon';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -18,7 +19,7 @@ export class AppComponent implements OnInit {
   title: string = 'fundamentos-ag';
   private subtitle = 'fundamentos-ag-private';
 
-  email = "edu@email.com"
+  email = "sandy@email.com"
   btnDisabled = true
 
   contadorOvejas = 1;
@@ -36,7 +37,7 @@ export class AppComponent implements OnInit {
   listaPersonas: string[] = []
 
   boxStyles = {
-    background: 'black',
+    background: 'red',
     width: 100,
     height: 100
   }
@@ -51,7 +52,7 @@ export class AppComponent implements OnInit {
   nuevoPokemon: string = ''
 
   mostrarAlerta() {
-    alert('Alera de event binding')  
+    alert('Alera de event')  
   }
 
   agregarPersona() {
@@ -66,18 +67,25 @@ export class AppComponent implements OnInit {
   handlerRegistro() {
     console.log(this.registroInputs)
   }
-
-  ngOnInit(): void {
-    console.log('ngOnInit start...')
-    fetch(
-      `https://pokeapi.co/api/v2/pokemon?limit=8&offset=${Math.floor(Math.random() * 250)}`
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data)
-        this.pokedex = data.results
-      })
-      .then(() => console.log('ngOnInit end...'))
-  }
+  eliminarPersona(index: number) {
+    this.listaPersonas.splice(index, 1);
+}
+limpiarFormulario() {
+  // Restablecer los valores de los campos del formulario
+  this.registroInputs.email = '';
+  this.registroInputs.passkey = '';
+}
+ngOnInit(): void {
+  console.log('ngOnInit start...')
+  fetch(
+    `https://pokeapi.co/api/v2/pokemon?limit=8&offset=${Math.floor(Math.random() * 250)}`
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data)
+      this.pokedex = data.results
+    })
+    .then(() => console.log('ngOnInit end...'))
+}
 
 }
